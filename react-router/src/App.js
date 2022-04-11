@@ -8,10 +8,12 @@ import Header from './Component/Header/Header';
 import FriendDetails from './Component/FriendDetails/FriendDetails';
 import Posts from './Component/Posts/Posts';
 import PostDetail from './Component/PostDetail/PostDetail';
+import SearchField from './Component/SearchField/SearchField';
 function App() {
   return (
     <div className="App">
       <Header></Header>
+      <SearchField></SearchField>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
         <Route path="/friends" element={<Friends/>}></Route>

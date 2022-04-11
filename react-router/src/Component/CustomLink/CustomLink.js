@@ -17,6 +17,6 @@ function CustomLink({ children, to, ...props }) {
         {/* {match && " (active)"} */}
       </div>
     );
-  }
+}
 
 export default CustomLink;
